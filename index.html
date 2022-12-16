@@ -5,15 +5,15 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Page couldn't load</title>
 </head>
-<body>
+<body onload="pageLoad()">
    <div class="center-screen">
-      <p class="text">Se pare ca a intervenit o eroare! Pentru a accesa pagina va rugam sa accesati <a href="http://www.contemporan.github.io/ro/">http://www.contemporan.github.io/ro/</a></p>
+      <p class="text">Se pare ca a intervenit o eroare! Pentru a accesa pagina va rugam sa accesati <a href="https://www.contemporan.github.io/ro/">https://www.contemporan.github.io/ro/</a></p>
    </div>
 </body>
 
 <script type="text/javascript">
-   Window.onload = function {
-      location.href = "http://www.contemporan.github.io/ro/";
+   function pageLoad() {
+      location.href = "https://www.contemporan.github.io/ro/";
    }
 
 </script>
