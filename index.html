@@ -6,14 +6,32 @@
    <title>Page couldn't load</title>
 </head>
 <body>
-   <h5>Se pare ca a intervenit o eroare! Pentru a accesa pagina va rugam sa accesati <a href="https://www.contemporan.github.io/ro/">https://www.contemporan.github.io/ro/</a></h5>
+   <div class="center-screen">
+      <p class="text">Se pare ca a intervenit o eroare! Pentru a accesa pagina va rugam sa accesati <a href="http://www.contemporan.github.io/ro/">http://www.contemporan.github.io/ro/</a></p>
+   </div>
 </body>
 
 <script type="text/javascript">
    Window.onload = function {
-      location.href = "https://www.contemporan.github.io/ro/";
+      location.href = "http://www.contemporan.github.io/ro/";
    }
 
 </script>
+
+<style type="text/css">
+.center-screen {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.text {
+   font-family:"Calibri, sans-serif";
+   font-size: 20px;
+   text-align: center;
+}
+
+</style>
 
 </html>
