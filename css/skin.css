@@ -1285,6 +1285,7 @@ body,
 
 /* Side Main Nav Initial Colors & Padding */
 .side-navigation > ul > li > a{
+	font-weight: 400!important;
 	padding: 0 1rem;
 	display: inline;
 	font-size: 4rem;
@@ -1589,7 +1590,7 @@ body,
 	padding: 0;
 }
 [class*="intro-title-"]{
-	height: 45rem;
+	height: 30rem;
 }
 [class*="intro-title-"].small{
 	height: 30rem;
@@ -1608,6 +1609,9 @@ body,
 }
 .intro-title-2-3{
 	background-image: url(../images/index/bgblack.png);	
+}
+.products-intro {
+	background-image: url(../images/index/bg.jpg);	
 }
 .intro-title-2-4{
 	background-image: url(../images/slider/slide-5-page-intro.jpg);	
