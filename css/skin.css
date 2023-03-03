@@ -711,7 +711,22 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 9rem;
+	width: 17.5rem;
+}
+
+.find-order-container .button:hover {
+    background-color: #3fb58b;
+    border-color: #3fb58b;
+    color: #fff;
+}
+.find-order-container .button {
+    background-color: #33363a;
+    border-color: #33363a;
+    color: #fff;
+}
+
+.find-order-container {
+	    display: flex !important;
 }
 
 /* Compacted Header Logo Width */
