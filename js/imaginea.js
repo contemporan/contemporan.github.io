@@ -5,7 +5,7 @@ SlideShow(1, slidePosition);
 setInterval(() => {
   plusSlides(0, 1);
   plusSlides(1, 1);
-}, 3000)
+}, 6000)
 
 // forward/Back controls
 function plusSlides(type, n) {
