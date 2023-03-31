@@ -39,22 +39,25 @@
 				<nav class="side-navigation center">
 					<ul>
 						<li>
-							<a href="index.html">Pagina principală</a>
+							<a href="index.html">Main Page</a>
 						</li>
 						<li>
-							<a href="magazin.html">Bijuterii</a>
+							<a href="magazin.html">Jewelry</a>
 						</li>
 						<li>
-							<a href="noutati.html">Noutăți</a>
+							<a href="noutati.html">News</a>
 						</li>
-						<li class="current">
-							<a href="urmareste.html">Urmărește comanda</a>
+						<li>
+							<a href="urmareste.html">Track</a>
 						</li>
 						<li>
 							<a href="contact.html">Contact</a>
 						</li>
 						<li>
-							<a href="imaginea_firmei.html">Imaginea firmei</a>
+							<a href="../ro/index.html">Romanian</a>
+						</li>
+						<li class="current">
+							<a href="imaginea_firmei.html">Image of company</a>
 						</li>
 					</ul>
 				</nav>
@@ -159,61 +162,118 @@
 			<!-- Content -->
 			<div class="content clearfix">
 
-				<!-- Intro Title Section 2 -->
-				<div class="section-block products-intro">
-					<div class="media-overlay bkg-black opacity-05"></div>
-					<div class="row">
-						<div class="column width-12">
-							<div class="title-container">
-								<div class="title-container-inner center color-white">
-									<h1 style="font-weight: 400;" class="title-xlarge color-white mb-0">Urmărește-ți comanda!</h1>
+				<!-- Full Width Slider Section -->
+				<section class="section-block featured-media tm-slider-parallax-container">
+					<div class="tm-slider-container full-width-slider" data-parallax data-parallax-fade-out data-animation="slide" data-scale-under="1140" data-scale-min-height="300">
+						<ul class="tms-slides">
+							<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.3">
+								<div class="tms-content">
+									<div class="tms-content-inner center">
+										<div class="row">
+											<div class="column width-12">
+												<h1 class="tms-caption title-xlarge color-white mb-10"
+													data-animate-in="preset:scaleOut;duration:1000ms;"
+													data-no-scale
+												>
+													Image of the Company
+												</h1>
+											</div>
+										</div>
+									</div>
+								</div>
+								<img data-src="../images/index/bgblack.png" data-retina src="images/blank.png" alt=""/>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- Full Width Slider Section -->
+
+				<!-- Feature Column Section -->
+				<div class="section-block replicable-content">
+					<div class="row flex">
+						<div class="column width-6">
+							<div class="feature-column medium center">
+								<span class="feature-icon icon-camera"></span>
+								<div class="feature-text">
+									<h3 class="mb-5">Photos</h3>
+									
+								<div class="slideshow-container fade">
+									  <div class="Containers">
+									    <div class="MessageInfo">1 / 3</div>
+									    <img src="../images/firma/1.jpeg" style="width:100%">
+									    <div class="Info"></div>
+									  </div>
+
+									  <div class="Containers">
+									    <div class="MessageInfo">2 / 3</div>
+									    <img src="../images/firma/2.jpeg" style="width:100%">
+									    <div class="Info"></div>
+									  </div>
+
+									  <div class="Containers">
+									    <div class="MessageInfo">3 / 3</div>
+									    <img src="../images/firma/3.jpeg" style="width:100%">
+									    <div class="Info"></div>
+									  </div>
+
+									  <!-- Back and forward buttons -->
+									  <a class="Back" onclick="plusSlides(0, -1)">&#10094;</a>
+									  <a class="forward" onclick="plusSlides(0, 1)">&#10095;</a>
+								 </div>
+								<br>
+
+									<!-- The circles/dots -->
+								<div style="text-align:center">
+									  <span class="dots" onclick="currentSlide(0, 1)"></span>
+									  <span class="dots" onclick="currentSlide(0, 2)"></span>
+									  <span class="dots" onclick="currentSlide(0, 3)"></span>
+									</div> 
+								</div>
+							</div>
+						</div>
+						<div class="column width-6">
+							<div class="feature-column medium center">
+								<span class="feature-icon icon-open-book"></span>
+								<div class="feature-text">
+									<h3 class="mb-5">Awards</h3>
+									<div class="slideshow-container fade">
+									  <div class="ContainersDiplome">
+									    <div class="MessageInfo">1 / 3</div>
+									    <img src="../images/firma/diplome/1.jpeg" style="width:100%">
+									    <div class="Info"></div>
+									  </div>
+
+									  <div class="ContainersDiplome">
+									    <div class="MessageInfo">2 / 3</div>
+									    <img src="../images/firma/diplome/2.jpeg" style="width:100%">
+									    <div class="Info"></div>
+									  </div>
+
+									  <div class="ContainersDiplome">
+									    <div class="MessageInfo">3 / 3</div>
+									    <img src="../images/firma/diplome/3.jpeg" style="width:100%">
+									    <div class="Info"></div>
+									  </div>
+
+									  <!-- Back and forward buttons -->
+									  <a class="BackDiplome" onclick="plusSlides(1, -1)">&#10094;</a>
+									  <a class="forwardDiplome" onclick="plusSlides(1, 1)">&#10095;</a>
+								 </div>
+								<br>
+
+									<!-- The circles/dots -->
+								<div style="text-align:center">
+									  <span class="dotsDiplome" onclick="currentSlide(1, 1)"></span>
+									  <span class="dotsDiplome" onclick="currentSlide(1, 2)"></span>
+									  <span class="dotsDiplome" onclick="currentSlide(1, 3)"></span>
+									</div> 
+								</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- Intro Title Section 2 End -->
-
-				<div id="product-grid" class="section-block grid-container products fade-in-progressively center" data-layout-mode="masonry" data-grid-ratio="1.5" data-animate-resize data-animate-resize-duration="1700" style="padding-top: 5rem;">
-					<span>Introdu mai jos codul comenzii!</span>
-					<div class="row">
-						<div class="column col-md-6">
-								<form class="cart-coupon-form clear-float-on-mobile find-order-container" action="#" method="post" novalidate="">
-									<input type="text" class="form-element rounded" placeholder="Numar AWB" value="CG29457362182">
-									<input type="submit" value="Verificare" class="form-submit button rounded mb-30">
-								</form><hr/>
-
-								<div class="card">
-									<div class="card-header">
-										<b>Comanda dvs. este in curs de livrare! (#1441)</b>
-									</div>
-									<div class="card-body">
-										<span style="font-size: 5rem;" class="feature-icon icon-location"></span>
-										<h3 class="mb-5">Locația coletului dumneavoastră</h3>
-									</div>
-									<div class="card-body" style="text-align: left;">
-										<p class="mb-0 mb-mobile-50 weight-light color-grey  center"><b>Coletul dumneavoastră se află in acest moment in judetul </b> Iasi</p>
-										<p class="mb-0 mb-mobile-50 weight-light center color-grey"><b>Ultimele detalii de tranzit: </b></p>
-										<ul style="text-align: center; list-style: circle; margin-left: 10px!important;">
-											<li>Iasi: Coletul a ajuns in depozit si urmeaza sa ajunga la dumneavoastra (<span class="weight-light color-grey">15:35</span>)</li>
-											<li>Bucuresti: Coletul a ajuns in depozitul principal pentru verificarile necesare (<span class="weight-light color-grey">09:25</span>)</li>
-											<li>Ilfov: Coletul a fost expediat de catre F.E. Contemporan S.R.L (<span class="weight-light color-grey">17:35</span>)</li>
-										</ul>
-									</div>
-
-									<div class="card-body">
-										<span style="font-size: 5rem;" class="feature-icon icon-info"></span>
-										<h3 class="mb-5">Informații despre adresa livrarii</h3>
-									</div>
-									<div class="card-body" style="text-align: left;">
-										<p class="mb-0 mb-mobile-50 weight-light color-grey center"><b>Adresa de livrare</b> Strada Milcov nr. 18A</p>
-										<p class="mb-0 mb-mobile-50 weight-light color-grey center"><b>Număr de telefon</b> 0232245778</p>
-									</div>
-								</div>
-						</div>
-					</div>
-				</div>
-				<!-- Hero 5 Section End -->
+				<!-- Feature Column Section End -->
 			</div>
 			<!-- Content End -->
 
@@ -224,7 +284,7 @@
 						<div class="column width-12">
 							<div class="footer-bottom-inner center clear-float">
 								<p class="copyright pull-left clear-float-on-mobile">
-									&copy; F.E CONTEMPORAN. Toate drepturile sunt rezervate. <a href="#">Termeni &amp; Condiții</a> | <a href="#">Politica Cookie</a>
+									&copy; F.E CONTEMPORAN. All rights are reserved. <a href="#">Terms &amp; Conds</a> | <a href="#">Cookie policy</a>
 								</p>
 								<p class="pull-right clear-float-on-mobile no-margins">
 									<a href="#" class="scroll-to-top" data-no-hide>Back Top</a>
@@ -244,5 +304,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="../js/timber.master.min.js"></script>
+	<script src="../js/imaginea.js"></script>
 </body>
 </html>
